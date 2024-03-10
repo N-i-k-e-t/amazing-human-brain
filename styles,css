@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8; 
+    line-height: 1.6; 
+    color: #333; /* A dark gray for easy readability */
+}
+
+header {
+    background-color: #286eb4;  /* A bold blue for the header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; 
+    margin-right: 25px;
+}
+
+nav a { 
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #00487c;  /* A darker, contrasting blue  */
+    margin-bottom: 10px; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); 
+}
+
+/* Resource Link Styles */
+section ul li a {
+    color: #0066cc; 
+    text-decoration: none; 
+}
+
+section ul li a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;  /* Keeps images from overflowing their container */ 
+    height: auto;     /* Maintains the image's aspect ratio */
+    display: block;   /* Places the image on its own line */
+    margin: 20px auto;/* 20 pixels space above/below, centers it */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); /* A subtle shadow */
+}
