@@ -81,7 +81,6 @@ img {
     border-radius: 5px; /* Slightly rounded corners */
     box-shadow: 2px 2px 8px rgba(0,0,0,0.3); /* A subtle shadow */
 }
-/* ... your existing styles ... */
 .popup-container {
     position: fixed;
     top: 50%;
