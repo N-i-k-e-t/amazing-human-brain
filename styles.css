@@ -94,4 +94,15 @@ img {
     display: none; /* Initially hidden */
     z-index: 100; /* Ensures popup is on top */
 }
+@media (max-width: 768px) { /* Example breakpoint for tablets */
+    body { 
+        font-size: 14px;  /* Decrease font size maybe */
+    }
+
+    .navigation { 
+        display: flex;
+        flex-direction: column; /* Stack navigation items */
+    }
+}
+
 
